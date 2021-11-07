@@ -1,7 +1,4 @@
 FROM openjdk
 WORKDIR /java
-COPY ../*.class .
+COPY /var/lib/jenkins/workspace/simplejava/Simple.class /java
 CMD ["java","Simple"]
-
-
-
