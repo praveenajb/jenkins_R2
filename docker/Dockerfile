@@ -1,4 +1,4 @@
 FROM openjdk
 WORKDIR /java
 COPY ./*.class .
-CMD["java","Simple.class"]
+CMD["java","Simple"]
